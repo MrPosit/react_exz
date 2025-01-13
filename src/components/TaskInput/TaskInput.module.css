@@ -1,0 +1,55 @@
+
+.task_input {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #ebeef0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task_input img {
+    display: block;
+    width: 49px;
+    height: 49px;
+    border-radius: 50%;
+}
+
+.task_input_action {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.task_input_action textarea {
+    padding: 12px 0 12px 12px;
+    width: 100%;
+    outline: none;
+    resize: none;
+    overflow: hidden;
+    border: none;
+    letter-spacing: -0.3px;
+    font-weight: 500;
+    font-size: 20px;
+    color: #0f1419;
+}
+
+.task_input_action textarea::placeholder {
+    color: #5b7083;
+}
+
+.task_input_action button {
+    padding: 13px 24px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    background: #1da1f2;
+    font-weight: 700;
+    line-height: 19px;
+    font-size: 15px;
+    color: white;
+}
+
+.task_input_action button:hover {
+    background: black;
+}

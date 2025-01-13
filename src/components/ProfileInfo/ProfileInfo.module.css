@@ -1,0 +1,43 @@
+.profile_avatar {
+    position: relative;
+    z-index: 1;
+    display: block;
+    margin: -79px 0 0 0;
+    width: 139px;
+    height: 139px;
+    border-radius: 50%;
+    border: 4px solid #17202a;
+}
+
+.edit_button {
+    margin: 10px 0 0 0;
+    padding: 13px 25px;
+    font-size: 15px;
+    color: #1da1f2;
+    font-weight: 700;
+    line-height: 19px;
+    background: none;
+    border-radius: 30px;
+    border: 2px solid #1da1f2;
+    cursor: pointer;
+}
+
+.edit_button:hover {
+    background: #1da1f2;
+    color: white;
+}
+
+.text_style_one {
+    font-weight: 700;
+    font-size: 21px;
+}
+
+.text_style_two {
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.text_style_three {
+    font-weight: 700;
+    font-size: 16px;
+}

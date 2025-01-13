@@ -1,0 +1,36 @@
+.navbar {
+    display: flex;
+    flex-direction: column;
+    width: 31.5%;
+    padding: 11px 10px 0;
+}
+
+.navbar_logo {
+    width: 30px;
+    height: 30px;
+    margin: 0 0 0 10px;
+}
+
+ul {
+    margin: 12px 0 0 0;
+}
+
+ul li {
+    width: 0;
+}
+
+.navbar_button {
+    padding: 15px 93px;
+    border-radius: 30px;
+    border: none;
+    background: #1da1f2;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 19px;
+    cursor: pointer;
+}
+
+.navbar_button:hover {
+    background: black;
+}

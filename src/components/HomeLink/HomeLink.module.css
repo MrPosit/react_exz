@@ -1,0 +1,10 @@
+.navbar_link {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_link p {
+    font-size: 19px;
+    font-weight: 700;
+    margin: 0 0 0 20px;
+}

@@ -1,0 +1,8 @@
+.gap {
+    width: 100%;
+    border-left: 2px solid #ebeef0;
+    border-bottom: 2px solid #ebeef0;
+    border-right: 2px solid #ebeef0;
+    background: #f7f9fa;
+    padding: 5px 0;
+}
